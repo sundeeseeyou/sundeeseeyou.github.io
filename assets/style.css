@@ -1,0 +1,555 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+
+
+}
+
+body a {
+    color: #301130;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body a:hover {
+    opacity: .6;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+}
+
+nav a{
+    text-decoration:none;
+    color: #301130;
+    font-size: 1.3rem;
+    font-style: normal;
+    padding: .5rem 0px;
+}
+
+
+header{
+    margin-bottom: 3rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.header-box{
+    background: linear-gradient(70deg, #51adcf, #c3ce4b); 
+    height: 65vh;
+    border-radius: 2rem;
+    /* display: relative; */
+}
+
+
+.name-box{
+    text-align: left;
+    position: relative;
+    top: 10rem;
+    left: 4rem;
+}
+
+
+.name-box > h1{
+    font-size: 6rem;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    letter-spacing: .5rem;
+    margin: 0px;
+}
+
+.name-box > p{
+    color: white;
+    font-size: 2rem;
+    margin: 0px;
+    
+}
+
+.header-box > img{
+    float: right;
+    border-bottom-right-radius: 2rem;
+    height: 63.8vh;
+    position: relative;
+    top: -9.2rem;
+    filter: brightness(120%) contrast(100%) saturate(120%);
+}
+
+footer{
+    background-color: #301130;
+    color: #fafafa;
+    width: 100%;
+    margin: 3rem 0px 0px 0px ;
+    padding: 2rem 0;
+}
+
+footer > p {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main{
+    margin: 0;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+main > section{
+    background: #fafafa; 
+    height: auto;
+    border-radius: 2rem;
+    /* display: relative; */
+}
+
+.box-shade {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+section#about-me{
+    padding: 4rem 4rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section#about-me > img{
+    height: 40vh;
+    
+}
+
+.about-box{
+    height: 80%;
+}
+
+
+h2{
+    color: #301130;
+    font-size: 3rem;
+    letter-spacing: .6rem;
+    margin: 0px 0px 1.5rem 0px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+
+#about-me p, .text-porto{
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: left;
+    padding: 0px 4rem 0px 0px;
+    line-height: 2.5rem;
+}
+
+
+section#portfolio{
+    /* padding: 4rem 4rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: none;
+    box-shadow: none;
+    height: 65vh;
+    gap: 1rem;
+    
+
+}
+
+section#portfolio > div:not(.text-porto){
+    background-color: #fafafa;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+section#portfolio > div > img{
+    max-width: 16rem;
+    height: auto;
+    object-fit: contain;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+
+section#portfolio .text-porto{
+    grid-column: span 2;
+    padding: 3rem 4rem;
+    background-color: #fafafa;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#portofilio h4{
+    margin: 0px auto;
+}
+
+section#portfolio > .project6 > div{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: #dadada;
+    color: #301130; */
+}
+
+section#contact{
+    padding: 4rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background: none;
+    box-shadow: none;
+
+}
+
+section .left-contact, .right-contact{
+    width: 100%;
+}
+
+.left-contact > p , .right-contact p{
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: left;
+    padding: 0px 4rem 0px 0px;
+    line-height: 2.5rem;
+}
+
+.right-contact > form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    flex-basis: 80%;
+ 
+}
+
+
+.right-contact > form input{
+    padding: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: .5rem ;
+
+}
+
+.right-contact textarea{
+    padding: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: .5rem ;
+    margin: 0px 0px;
+
+}
+
+form input[placeholder]{
+    font-size: 1.1rem;
+}
+
+form > h3{
+    margin-bottom: -1rem;
+    margin-top: 0px ;
+}
+
+.btn-send{
+    background-color: #51adcf;
+    color: white;
+    font-weight: bold;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.btn-send:hover{
+    opacity: .8;
+
+}
+
+
+.left-contact a:hover{
+    opacity: .8;
+}
+
+/* mobile version */
+
+@media (max-width:900px){
+
+    header{
+        margin-bottom: 1rem;
+        width: 95%;
+        height: auto;
+
+    }
+    
+    .header-box{
+        background: linear-gradient(70deg, #51adcf, #c3ce4b); 
+        height: 20vh;
+        border-radius: 0px;
+        display: flex;
+        flex-basis: 30px;
+        border-radius: 20px;
+
+
+    }
+
+    nav{
+        display: flex;
+        justify-content: end;
+        gap: .6rem;
+    }
+    
+    nav a{
+        text-decoration:none;
+        color: #301130;
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+    
+    
+    .name-box{
+        width: 100%;
+        text-align: left;
+        position: relative;
+        top: 1rem;
+        left: 1rem;
+       
+    }
+    
+    
+    .name-box > h1{
+        font-size: 1.5rem;
+        font-family: 'Londrina Solid', cursive;
+        color: white;
+
+    }
+    
+    .name-box > p{
+        color: white;
+        font-size: 16px;
+        
+    }
+    
+    .header-box > img{
+        height: 20vh;
+        border-bottom-right-radius: 20px;
+        filter: brightness(120%) contrast(100%) saturate(120%);
+        bottom: 0px;
+        top: 0px;
+    }
+
+    footer{
+        background-color: #301130;
+        color: #fafafa;
+        width: 100%;
+        margin: 3rem 0px 0px 0px ;
+        padding: 10px 0;
+  
+    }
+    
+    footer > p {
+        text-align: center;
+    }
+    
+    
+    main{
+        margin: 0;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    
+    main > section{
+        background: #fafafa; 
+        height: auto;
+        border-radius: 1rem;
+        margin: 0;
+    }
+    
+    .box-shade:not {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    section#about-me{
+        padding: 2rem 2rem;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    
+    section#about-me > img{
+        height: 15vh;
+        
+    }
+      
+    
+    h2{
+        color: #301130;
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+        margin: 0px 0px .5rem 0px;
+        font-family: 'Londrina Solid', cursive;
+    }
+    
+    
+    #about-me p, .text-porto > p{
+        font-size: 14px;
+        margin: 0px;
+        text-align: justify;
+        padding: 0px 2rem 0px 0px;
+        line-height: 1.2rem;
+    }
+    
+    section#portfolio{
+        display: flex;
+        flex-direction: column;
+        background: #fafafa;
+        height:auto;
+        gap: 1rem;
+        border-radius: 1rem;
+        box-shadow: none;
+    }
+
+    section#portfolio h2{
+            color: #301130;
+            font-size: 1.3rem;
+            letter-spacing: 0.1rem;
+            margin: 0px 0px .5rem 0px;
+            font-family: 'Londrina Solid', cursive;
+
+    }
+    
+    section#portfolio > div:not(.text-porto){        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        background: none;
+        box-shadow: none;
+    }
+    
+    section#portfolio > div > img{
+        max-width: 80%;
+        height: auto;
+        object-fit: contain;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    section#portfolio a{
+        display: block;
+    }
+    
+    section#portfolio .text-porto{
+        grid-column: span 2;
+        padding: 2rem 2rem;
+        box-shadow: none;
+        box-sizing: border-box;
+
+    }
+
+    .project1, .project2, .project3, .project4, .project5 {
+        border-bottom: 2px solid #d3d3d3;
+        padding-bottom: 2rem;
+    }
+    
+    #portofilio h4{
+        margin: 0px auto;
+    }
+    
+    section#portfolio > .project6 > a{
+        color: #301130;
+        padding: 2rem 3rem;
+    }
+    
+    section#contact{
+        padding: 4rem 4rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 2rem;
+        background: none;
+        box-shadow: none;
+    
+    }
+    
+    section .left-contact, .right-contact{
+        width: 100%;
+    }
+    
+    .left-contact > p , .right-contact p{
+        font-size: 1rem;
+        margin: 0px;
+        text-align: left;
+        padding: 0px 4rem 0px 0px;
+        line-height: 2.5rem;
+    }
+    
+    .right-contact > form{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        flex-basis: 80%;
+     
+    }
+    
+    
+    .right-contact > form input{
+        padding: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        border-radius: .5rem ;
+    
+    }
+    
+    .right-contact textarea{
+        padding: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        border-radius: .5rem ;
+        margin: 0px 0px;
+    
+    }
+    
+    form input[placeholder]{
+        font-size: 1rem;
+    }
+    
+    form > h3{
+        margin-bottom: -1rem;
+        margin-top: 0px ;
+    }
+    
+    .btn-send{
+        background-color: #51adcf;
+        color: white;
+        font-weight: bold;
+        border-radius: .5rem;
+        cursor: pointer;
+        width: 6rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .btn-send:hover{
+        opacity: .8;
+    
+    }
+    
+    
+    .left-contact a:hover{
+        opacity: .8;
+    }
+} /*<-- Ending mobile version*/
